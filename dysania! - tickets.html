@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>dysania! - tickets</title>
+<meta name="viewport" content="width=device-width" charset="utf-8">
+<link rel="stylesheet" type="text/css" href="dysania!%20-%20tickets.css">
+<header>
+<div class="header">
+    </div>
+<div class="cont">
+<nav>      
+<input type="checkbox" name="menu" id="btn-menu" />
+<label for="btn-menu">Меню</label> 
+<ul>
+<li><a href="dysania!%20-%20main.html">Главная</a></li>
+<li><a href="dysania!%20-%20media.html">Медиа</a></li>
+<li><a href="dysania!%20-%20about.html">О нас</a></li>
+<li><a href="dysania!%20-%20contacts.html">Контакты</a></li>
+<li><a href="dysania!%20-%20tickets.html">Билеты</a></li>
+<li><a href="dysania!%20-%20shop.html">Магазин</a></li>
+<li><a href="dysania!%20-%20news.html">Новости</a></li>
+</ul>
+</nav>
+</div>
+</header>
+</head>
+<body>
+ <div class="content">
+    <label class="title" for="">Выберите дату концерта</label>
+    <select name="" id="film">
+      <option value="5">26.11.2021 <span class="price">(5.00 BYN)</span></option>
+      <option value="10">30.12.2021 <span class="price">(10.00 BYN)</span></option>
+      <option value="5">05.04.2022 <span class="price">(5.00 BYN)</span></option>
+      <option value="5">31.05.2022 <span class="price">(5.00 BYN)</span></option>
+      <option value="15">15.06.2022 <span class="price">(15.00 BYN)</span></option>
+      <option value="10">04.07.2022 <span class="price">(10.00 BYN)</span></option>
+      <option value="5">16.09.2022 <span class="price">(5.00 BYN)</span></option>
+      <option value="8">05.10.2022 <span class="price">(8.00 BYN)</span></option>
+    </select>
+  </div>
+
+
+  <div class="cinemaInfo">
+    <div class="seat info"></div>
+    <small>Свободно</small>
+
+
+    <div class="seat info selected"></div>
+    <small>Выбрано</small>
+
+
+    <div class="seat info occupated"></div>
+    <small>Занято</small>
+  </div>
+
+  <div class="theatre">
+    <div class="screenArea"><span>Сцена</span></div>
+    <div class="theatreRows">
+      <div class="row" id="1">
+        <div class="rowNumb" id="1"></div>
+        <div class="sedia" id="1"></div>
+        <div class="sedia" id="2"></div>
+        <div class="sedia" id="3"></div>
+        <div class="sedia" id="4"></div>
+        <div class="sedia" id="5"></div>
+        <div class="sedia" id="6"></div>
+        <div class="sedia" id="7"></div>
+        <div class="sedia" id="8"></div>
+        <div class="sedia" id="9"></div>
+        <div class="sedia" id="10"></div>
+      </div>
+      <div class="row" id="2">
+        <div class="rowNumb" id="2"></div>
+        <div class="sedia" id="1"></div>
+        <div class="sedia" id="2"></div>
+        <div class="sedia" id="3"></div>
+        <div class="sedia" id="4"></div>
+        <div class="sedia" id="5"></div>
+        <div class="sedia" id="6"></div>
+        <div class="sedia" id="7"></div>
+        <div class="sedia" id="8"></div>
+        <div class="sedia" id="9"></div>
+        <div class="sedia" id="10"></div>
+      </div>
+      <div class="row" id="3">
+        <div class="rowNumb" id="3"></div>
+        <div class="sedia" id="1"></div>
+        <div class="sedia" id="2"></div>
+        <div class="sedia" id="3"></div>
+        <div class="sedia" id="4"></div>
+        <div class="sedia" id="5"></div>
+        <div class="sedia" id="6"></div>
+        <div class="sedia" id="7"></div>
+        <div class="sedia" id="8"></div>
+        <div class="sedia" id="9"></div>
+        <div class="sedia" id="10"></div>
+      </div>
+      <div class="row" id="4">
+        <div class="rowNumb" id="4"></div>
+        <div class="sedia" id="1"></div>
+        <div class="sedia" id="2"></div>
+        <div class="sedia" id="3"></div>
+        <div class="sedia" id="4"></div>
+        <div class="sedia" id="5"></div>
+        <div class="sedia" id="6"></div>
+        <div class="sedia" id="7"></div>
+        <div class="sedia" id="8"></div>
+        <div class="sedia" id="9"></div>
+        <div class="sedia" id="10"></div>
+      </div>
+      <div class="row" id="5">
+        <div class="rowNumb" id="5"></div>
+        <div class="sedia" id="1"></div>
+        <div class="sedia" id="2"></div>
+        <div class="sedia" id="3"></div>
+        <div class="sedia" id="4"></div>
+        <div class="sedia" id="5"></div>
+        <div class="sedia" id="6"></div>
+        <div class="sedia" id="7"></div>
+        <div class="sedia" id="8"></div>
+        <div class="sedia" id="9"></div>
+        <div class="sedia" id="10"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="checkout">
+    <div class="checkOutAreaOne">
+      <span class="text"> Место (кресло/ряд):</span>
+      <div class="postoS"></div>
+      <br>
+      <div class="checkoutTotal">
+        <span class="text"> Выбрано мест: </span> <span class="sedieTotale"> 0 </span>
+        <span class="text"> Итого: </span> <span class="costo"> 0 </span>
+      </div>
+
+      <br>
+    </div>
+
+    <div class="checkOutAreaTwo">
+      <!-- BACKEND ROUTE -->
+      <form action="file:///D:/университет/2%20курс/1%20семестр/Курсовой%20проект/кп/dysania!%20-%20tickets.html"file:///D:/университет/2%20курс/1%20семестр/Курсовой%20проект/кп/dysania!%20-%20tickets.html method="POST">
+        <script src="https://checkout.stripe.com/checkout.js" class="stripe-button" data-key="pk_test_YOURSTRIPEKEY"
+          data-amount="0" data-name="test" data-description="Sito Web Veloce">
+        </script>
+        <script>
+          // Hide default stripe button
+          document.getElementsByClassName('stripe-button-el')[0].style.display = 'none';
+        </script>
+
+
+        <button type="submit" class="btnBuy">Купить</button>
+
+      </form>
+    </div>
+  </div>
+    <script src="dysania!%20-%20tickets.js"></script>
+</body>
+</html>
